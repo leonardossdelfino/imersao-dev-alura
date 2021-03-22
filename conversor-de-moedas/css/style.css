@@ -1,6 +1,7 @@
 body {
     font-family: sans-serif, monospace;
     min-height: 400px;
+  background-color: #F3FEB0;
     background-size: 100vh;
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -12,18 +13,25 @@ body {
     /* Da um espaço de 25px na parte de cima*/
     padding: 10px;
     height: 150vh;
-    background-image: url("https://cdn.pixabay.com/photo/2017/09/07/08/54/money-2724241_960_720.jpg");
     background-repeat: no-repeat;
 }
 
 .page-title {
-    color: #BB2020;
+    color: #705E78;
     font-size: 2em;
 }
 
 .page-subtitle {
-    color: #06111C;
+    color: #812F33;
     font-size: 25px;
+}
+
+.lblDolar {
+  color: #812F33;
+}
+
+.lblReal {
+  color: #812F33;
 }
 
 .page-logo {
