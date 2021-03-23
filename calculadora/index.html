@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet"> 
+    <title>Imersão Dev - Aula 02</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1 class="titulo">Calculadora / IMC</h1>
+            <input class="num1" id="num1" type="text" placeholder="Valor/Altura">
+            <br>
+            <input class="num2" id="num2" type="text" placeholder="Valor/Peso">
+            <br>
+            <input class="soma" type="submit" value="+" onclick=soma()>
+            <input class="subtracao" type="submit" value="-" onclick=subtracao()>
+            <input class="multiplicacao" type="submit" value="x" onclick=multiplicacao()>
+            <input class="divisao" type="submit" value="÷" onclick=divisao()>
+            <br>
+            <input class="buttonIMC" id="buttonIMC" type="submit" value="IMC" onclick=imc()>
+            <br>
+            <input class="resultado" id="resultado" type="text" placeholder="Resultado">
+            
+            <a href="https://alura.com.br/" target="_blank">
+            <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo"></a>
+        </div>
+    </div>
+</body>
+</html>
